@@ -5,11 +5,14 @@
 
 # Tox files.
 /.tox/
+.pytest_cache/
 
 # Virtualenv files (created by tox).
 /build/
 /dist/
-.venv/
 
-# Demo files.
+# Données générées
 /var/
+!/var/.empty
+/demo/db.sqlite3
+.coverage

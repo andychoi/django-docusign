@@ -2,6 +2,13 @@
 Demo project
 ############
 
+python -m venv .venv && source .venv/bin/activate
+
+python -m pip install -r requirements.txt
+
+python manage.py runsslserver
+
+
 `Demo folder in project's repository`_ contains a Django project:
 
 * demo illustrates usage. Examples in documentation are imported from

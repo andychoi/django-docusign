@@ -56,9 +56,9 @@ KEYWORDS = [
 ]
 PACKAGES = [NAME.replace('-', '_')]
 REQUIREMENTS = [
-    'Django>=2.2.27,<3.3',
+    'Django>=2.2.27',
     'django-anysign>=1.2,<2.0',
-    'pydocusign>=2.2,<3.0',
+    'pydocusign>=2.2',
     'setuptools',
 ]
 ENTRY_POINTS = {}
