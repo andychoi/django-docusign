@@ -82,6 +82,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # Stuff that must be at the end.
     'django_nose',
+    "sslserver",
 )
 
 USE_TZ = True

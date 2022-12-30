@@ -4,3 +4,5 @@ git+https://github.com/andychoi/django-anysign.git
 django-sslserver
 # django-docusign
 git+https://github.com/andychoi/django-docusign.git
+
+django_nose

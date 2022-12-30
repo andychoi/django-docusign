@@ -11,6 +11,9 @@
 /build/
 /dist/
 
+# DB
+*.sqlite3
+
 # Données générées
 /var/
 !/var/.empty
